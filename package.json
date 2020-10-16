@@ -2,9 +2,10 @@
   "name": "nodejs_review",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "D:/WORKING/Web Developer/Nodejs/Nodejs_Review/nodejs/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/cqchien/Nodejs_Review#readme",
   "dependencies": {
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.5"
   }
 }
